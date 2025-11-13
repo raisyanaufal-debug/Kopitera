@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+            <nav class="navbar">
+                <h1 class="logo">KOPITERA</h1>
+                <ul class="nav-links">
+                    <li><a href="index.html"> Beranda</a></li>
+                    <li><a href="menu.html"> Menu</a></li>
+                    <li><a href="tentang.html"> Tentang</a></li>
+                    <li><a href="kontak.html"> Kontak</a></li>
+                </ul>
+            </nav>
+    </header>
+    <header>
+        <h1>Kontak Kami </h1>
+        <p>Silakan hubungi kami melalui salah satu metode di bawah ini.</p>
+    </header>
+
+    <hr>
+
+    <section>
+        <h2>Informasi Kontak</h2>
+        <ul>
+            <li><strong>Alamat Email:</strong> <a href="mailto:info@Kopitera.com">info@Kopitera.com</a></li>
+            <li><strong>Nomor Telepon:</strong> <a href="tel:+621234567890">+62 123-456-7891</a></li>
+            <li><strong>Alamat Kantor:</strong> Jl. Sukaasih atas III No. 235, Kota Bandung, Negara Indonesia</li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Kirim Pesan kepada Kami</h2>
+        <form action="/kirim-pesan" method="POST">
+            <div>
+                <label for="nama">Nama Lengkap:</label><br>
+                <input type="text" id="nama" name="nama" required placeholder="Masukkan nama Anda">
+            </div>
+            <br>
+            <div>
+                <label for="email">Alamat Email:</label><br>
+                <input type="email" id="email" name="email" required placeholder="cth: nama@domain.com">
+            </div>
+            <br>
+            <div>
+                <label for="subjek">Subjek:</label><br>
+                <input type="text" id="subjek" name="subjek" placeholder="Topik pesan Anda">
+            </div>
+            <br>
+            <div>
+                <label for="pesan">Pesan Anda:</label><br>
+                <textarea id="pesan" name="pesan" rows="5" required placeholder="Tuliskan pesan Anda di sini..."></textarea>
+            </div>
+            <br>
+            <div>
+                <button type="submit">Kirim Pesan</button>
+            </div>
+        </form>
+    </section>
+    <footer>
+        <p>&copy 2025 Kopitera</p>
+    </footer>
+</body>
+</html>
